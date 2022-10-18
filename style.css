@@ -27,7 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: var(--blue-light);
-    background-image: url(../img/bg-pattern1.png);
+    background-image: url(img/bg-pattern1.png);
     background-repeat: repeat;
 }
 
