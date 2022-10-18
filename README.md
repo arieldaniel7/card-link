@@ -1,4 +1,4 @@
 #MY SOCIAL MEDIA CARD PROTOTYPE
 
-![Alt text](https://imgur.com/u8Yg1ye "Desktop")
-![Alt text](https://imgur.com/gpSY6n9 "Responsive")
+![Desktop](https://i.imgur.com/u8Yg1ye.png "Desktop")
+![Responsive](https://i.imgur.com/gpSY6n9.png "Responsive")
