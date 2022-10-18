@@ -104,6 +104,10 @@ body{
 }
 
 @media screen and (max-width: 479px){
+    .container{
+        background-image: url(/img/bg-pattern1.png);
+    }
+    
     .wrapper{
         flex-wrap: wrap;
         width: 50%;
