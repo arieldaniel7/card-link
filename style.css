@@ -20,21 +20,36 @@ body{
 
 .container{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--blue-light);
     background-image: url(/img/bg-pattern1.png);
     background-repeat: repeat;
 }
+
 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.text{
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 14px;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+    width: 40%;
+    margin: 10px;
+}
+
 .card{
+    width: 70%;
     margin: 5px;
     padding: 32px;
     background-color: white;
@@ -81,5 +96,18 @@ body{
         background-position: left;
     } 100% {
         background-position: right;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .wrapper{
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    .text{
+        width: 50%;
+        font-size: 10px;
+        margin: 5px;
     }
 }
