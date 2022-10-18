@@ -9,6 +9,10 @@ body{
     overflow: hidden;
 }
 
+body{
+    background-color: var(--blue-light);
+}
+
 :root{
     --green-light: #00ff87;
     --yellow: #f5dd00;
@@ -26,7 +30,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--blue-light);
     background-image: url(/img/bg-pattern1.png);
     background-repeat: repeat;
     -webkit-background-size: 100%;
@@ -104,10 +107,6 @@ body{
 }
 
 @media screen and (max-width: 479px){
-    .container{
-        background-image: url(/img/bg-pattern1.png);
-    }
-    
     .wrapper{
         flex-wrap: wrap;
         width: 50%;
