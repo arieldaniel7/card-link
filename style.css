@@ -9,6 +9,8 @@ body{
     overflow: hidden;
 }
 
+media
+
 :root{
     --green-light: #00ff87;
     --yellow: #f5dd00;
@@ -27,7 +29,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: var(--blue-light);
-    background-image: url(/img/bg-pattern1.svg);
+    background-image: url(/img/bg-pattern1.png);
     background-repeat: repeat;
 }
 
